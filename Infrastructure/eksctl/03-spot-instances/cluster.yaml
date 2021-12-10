@@ -14,6 +14,6 @@ nodeGroups:
     desiredCapacity: 1
     privateNetworking: true
     instancesDistribution:
-      instanceTypes: ["t3a.small", "t3.small"]
+      instanceTypes: ["t3a.small"]
       onDemandPercentageAboveBaseCapacity: 0
     labels: { lifecycle: Ec2Spot }
